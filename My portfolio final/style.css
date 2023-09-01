@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    
+}
+body{
+    background-color: rgb(197, 197, 199);
+
+}
+.hero{
+    height: 12vh;
+    /* background-color:rgb(187, 38, 120); */
+}
+nav{
+    width: 100%;
+    height: 12vh; 
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    z-index: 12;
+    /* background-color: (187, 38, 120); */
+ }
+ nav a{
+     color:black;
+     text-decoration: none;
+     /* background-color: (187, 38, 120); */
+ }
+ ul{
+     display: flex;
+    float: right;
+    margin-left: 100px;
+    
+ }
+ li{
+     display: inline-block;
+     list-style: none;
+     font-weight: bold;
+     font-size: 20px;
+     margin: 0 12px;
+ }
+ .logo{
+     font-weight: bold;
+     font-size: 20px;
+     color:  black;
+     padding-left: 30px;
+ }
+ hr{
+    border: 1px solid rgb(187, 38, 120);
+}
+.image1{
+    width: 80%;
+    padding-top: 150px;
+   height: 100vh;
+}
+.text{
+    margin-top: 270px;
+}
+.text p{
+    font-size: 25px;
+}
+.btn1{
+    background-color: rgb(187, 38, 120);
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    padding: 9px 14px;
+    margin-top: 4rem;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+.about p{
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.about h2{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.images2{
+    display: flex;
+    flex-direction: row;
+}
+.images3{
+    width: 130%;
+    padding-top: 4.5rem;
+    padding-left: 4rem;
+    height: 60vh;
+}
+.laptop2{
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    width: 40%;    
+}
+.laptop{
+    margin-left: 10px;
+    width: 40%;
+    padding-top: 14rem;
+}
+
+.Services h2{
+    margin-top: 100px;
+    text-align: center; 
+
+}
+
+.box{
+    position: relative;
+    border: 2px solid rgb(187, 38, 120);
+    overflow: hidden;
+    width: 70%;
+    height: 200px;
+    border-radius: 12px;
+    /* padding-left: 10px; */
+   
+}
+.content {
+    text-align: center;
+}
+
+
+.smm{
+    padding-top: 20px;
+    width: 40%;
+    margin-left: 65px;
+    
+}
+.Services h2{
+    font-weight: bold;
+    padding-top: 80px;
+}
+.Services p{
+    padding-left: 11rem;
+    font-size: 25px;
+    margin-bottom: 6rem;
+}
+
+.Services h4{
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 22px;
+    /* margin-left: 40px; */
+}
+.box2{
+    position: relative;
+    border: 2px solid rgb(187, 38, 120);
+    overflow: hidden;
+    width: 70%;
+    height: 200px;
+    border-radius: 12px;
+    padding-left: 101px;
+    margin-top: 50px;
+}
+
+.gallery{
+    margin-top: 100px;
+    display: flex;
+}
+.gallery1{
+    width: 100%;
+    height: 70vh;
+    padding-left: 40px;
+}
+.projects h2{
+    margin-top: 180px;
+}
+.cpic{
+    margin-top: 70px;
+    width: 50%;
+}
+.gallery2{
+    display: flex;
+    width: 120%;
+    height: 35.5vh;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.projects h2{
+text-align: center;
+font-weight: bold;
+}
+
+.gp{
+    display: flex;
+    padding-left: 30px;
+    width: 120%;
+    height: 35.5vh; 
+    padding-bottom: 10px;
+}
+.contactform h3{
+font-weight: bold;
+text-align: center;
+margin-top: 100px;
+margin-bottom: 50px;
+}
+
+.contactform p{
+    margin-top: 90px;
+    font-size: 25px;
+}
+.me{
+    margin-top: 4rem;
+}
+.cpic{
+    width: 60%;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 12px 0;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: rgb(187, 38, 120);
+    color: white;
+    padding: 14px 20px;
+    margin: 12px 0;
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color: white;
+    color: black;
+  }
+ footer{
+    margin-top: 80px;
+    background-color:  rgb(187, 38, 120);
+    padding: 25px;
+ }
+ .navigation{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13rem;
+ }
+ .contactinfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13rem;
+ }
+ .links{
+    display: flex;
+    flex-direction: column; 
+    margin-left: 13rem;
+ }
+ .ref{
+    display: flex;
+    flex-direction: column; 
+    margin-left: 13rem;
+  
+ }
+ footer h5{
+    font-weight: bold;
+    color: white;
+ }
+
+ 
+/* media queries */
+
+ @media(max-width:575px){
+    ul{
+        display: flex;
+        float: left;
+       margin-left: 39px;
+    }
+    .logo{
+        display: none;
+    }
+    .image1{
+        width: 75%;
+        height: 54vh;
+     margin-left: 43px;
+    }
+    .text{
+        margin-top: 80px;
+        text-align: center;
+    }
+    .about h2 {
+        margin-top: 11px;
+    }
+    
+    .images3 {
+        width: 100%;
+        padding-top: 4.5rem;
+        padding-left: 0rem;
+        height: 38vh;
+    }
+  .Services p{
+    padding-left: 0rem;
+    margin-bottom: 1rem;
+    text-align: centre;
+  }
+  .Services h2{
+    margin-top: 0px;
+  }
+  
+  .box{
+    margin-left: 60px;
+    margin-top: 3rem;
+  }
+  .box2{
+    margin-left: 60px;
+  }
+  .gp{
+   height: 18.5vh;
+   padding-left: 0px;
+   padding-right: 19px;
+  }
+      .gallery2{
+        height: 18.5vh;
+      }
+      .gallery1{
+        width: 140%;
+        height: 36vh;
+        padding-left: 4px;
+      }
+      .contactform h3{
+        margin-top: 61px;
+      }
+      .cpic{
+        display: none;
+      }
+      input[type=text], select {
+        width: 100%;
+        padding: 10px 20px;
+        margin: 12px 0;
+    }
+    .navigation{
+        margin-left: 2rem;
+    }
+    .contactinfo{
+        margin-left: 2rem;
+    }
+    .links{
+        margin-left: 2rem;
+    }
+    .ref{
+        display: none;
+    }
+    .projects h2 {
+        margin-top: 89px
+ }
+}
+
+
+ @media(min-width:768px) and (max-width:991px){
+
+
+    .image1{
+       height: 68vh;
+ 
+    }
+    .images3{
+      width: 110%;
+      height: 45vh;
+      padding-left: 0rem;
+      margin-top: 60px;
+       }
+    
+
+    .text{
+        width: 100%;
+    }
+    .Services p{
+        padding-left: 0rem;
+        margin-bottom: 6rem;
+        display: none;
+    }
+    .Services h2{
+       padding-top: 0px;
+       margin-bottom: 5rem;
+    }
+    .smm{
+        margin-left: 38px;
+    }
+    .projects h2{
+        margin-top: 8rem;
+    }
+    .gallery1{
+     height: 40vh;
+    
+    }
+    .gallery2{
+        height: 20vh;
+    }
+    .gp{
+        height: 20vh;
+    }
+    .navigation{
+    margin-left: 4rem;
+    }
+    .contactinfo{
+        margin-left: 4rem;
+    }
+    .links{
+            margin-left: 4rem;
+    }
+    .ref{
+        margin-left: 4rem;
+    }
+    .cpic{
+        width: 75%;
+        margin-top: 91px;
+    }
+/* .box{
+    height: 165px;
+}
+.box2{
+    height: 165px;
+} */
+ }
+  
+
+
