@@ -127,6 +127,7 @@ nav{
     text-align: center;
 }
 
+
 .smm{
     padding-top: 20px;
     width: 40%;
@@ -142,6 +143,7 @@ nav{
     font-size: 25px;
     margin-bottom: 6rem;
 }
+
 .Services h4{
     font-weight: bold;
     padding-top: 10px;
@@ -155,7 +157,7 @@ nav{
     width: 70%;
     height: 200px;
     border-radius: 12px;
-    padding-left: 10px;
+    padding-left: 101px;
     margin-top: 50px;
 }
 
